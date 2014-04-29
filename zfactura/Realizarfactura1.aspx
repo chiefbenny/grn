@@ -517,34 +517,19 @@
                                     <asp:TextBox ID="txtClienteReferenciaPago" runat="server" placeholder="Últimos 4 numeros " />
                                 </div>
                             </div>
-                            <div class="gravables">
-                                <div>
-                                    <asp:Label ID="LbExento0" runat="server" Text="Exento:" CssClass="negritas" />
-                                    <asp:Label ID="LbExento" runat="server" Text="0" />
-                                </div>
-                                <div>
-                                    <asp:Label ID="Tasa00" runat="server" Text="Tasa0%:" CssClass="negritas" />
-                                    <asp:Label ID="LbTasa0" runat="server" Text="0" />
-                                </div>
-                                <div>
-                                    <asp:Label ID="LbTasa100" runat="server" Text="Gravable:" CssClass="negritas" />
-                                    <asp:Label ID="LbTasa10" runat="server" Text="0" />
-                                </div>
-                            </div>
                             <div class="resultados">
-                                <div>
-                                    <asp:Label ID="Label73" runat="server" Text="SubTotal:" CssClass="negritas" />
+                                <div class="leyendas">
+                                    <asp:Label ID="Label73" runat="server" Text="SubTotal: $" CssClass="negritas" />
+                                    <asp:Label ID="Label8" runat="server" Text="Ieps: $" CssClass="negritas" />
+                                    <asp:Label ID="Label74" runat="server" Text="Ivafactor" CssClass="negritas" />
+                                    <asp:Label ID="LbIva" runat="server" CssClass="oculto" />
+                                    <asp:Label ID="Label75" runat="server" Text="Total: $" CssClass="negritas" />
+                                </div>
+                                <div class="cantidades">
                                     <asp:Label ID="LbSubtotal0" runat="server" >0</asp:Label>
-                                </div>
-                                <div>
-                                    <asp:Label ID="Label74" runat="server" Text="IVA:" CssClass="negritas" />
-                                    <asp:Label ID="LbIva" runat="server" />
-                                   
-                                    <asp:Label ID="LbIvaDinero0" runat="server"  Text="0"></asp:Label>
-                                </div>
-                                <div>
-                                    <asp:Label ID="Label8" runat="server" Text="Ieps:" CssClass="negritas" />
                                     <asp:Label ID="LbIepsDinero" runat="server" Text="0"></asp:Label>
+                                    <asp:Label ID="LbIvaDinero0" runat="server"  Text="0"></asp:Label>
+                                    <asp:Label ID="LbTotal" runat="server" >0</asp:Label>
                                 </div>
                                 <div>
                                     <asp:Label ID="lbSiRV" runat="server" Text="" CssClass="negritas" />
@@ -568,9 +553,17 @@
                                     <asp:Label ID="LbRetencionIsrFactor" runat="server" Visible="False" />
                                     <asp:Label ID="LbRetencionIsrDinero" runat="server" Text="0" Visible="False"/>
                                 </div>
-                                <div>
-                                    <asp:Label ID="Label75" runat="server" Text="Total:" CssClass="negritas" />
-                                    <asp:Label ID="LbTotal" runat="server" >0</asp:Label>
+                            </div>
+                            <div class="gravables">
+                                <div class="leyendas">
+                                    <asp:Label ID="Tasa00" runat="server" Text="Tasa 0%:" CssClass="negritas" />
+                                    <asp:Label ID="LbExento0" runat="server" Text="Exento:" CssClass="negritas" />
+                                    <asp:Label ID="LbTasa100" runat="server" Text="Gravable:" CssClass="negritas" />
+                                </div>
+                                <div class="cantidades">
+                                    <asp:Label ID="LbTasa0" runat="server" Text="0" />
+                                    <asp:Label ID="LbExento" runat="server" Text="0" />
+                                    <asp:Label ID="LbTasa10" runat="server" Text="0" />
                                 </div>
                             </div>
                         </div>

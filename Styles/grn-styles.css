@@ -1509,11 +1509,11 @@ legend {
 }
 
 #MenuDatosFactura .resultados {
+	display: inline-block;
 	float: right;
 	padding-right: 15px;
-	margin-top: 75px;
+	margin: 75px 0 0 40px;
 	text-align: right;
-	width: 18%;
 }
 
 #MenuDatosFactura .monedaref {
@@ -1553,10 +1553,10 @@ legend {
 }
 
 #MenuDatosFactura .gravables {
-	float: left;
-	margin-top: 95px;
+	display: inline-block;
+	float: right;
+	margin-top: 75px;
 	text-align: right;
-	width: 48%;
 }
 
 #Div_InfoArticulos .guardar {

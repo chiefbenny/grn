@@ -319,26 +319,22 @@
                                     <asp:Label ID="LbivaFactor" runat="server" CssClass="negritas" Text="Ivafactor" />
                                     <asp:Label ID="lbSiIva" runat="server" CssClass="oculto" />
                                     <asp:Label ID="lblRi" runat="server" CssClass="negritas" Text="Retencion Iva: $" />
-
                                     <asp:Label ID="lbSiRisr" runat="server" CssClass="oculto" />
                                     <asp:Label ID="LbRetencionIsrValor" runat="server" CssClass="negritas" />
-                                                  <asp:Label ID="lbSiRV" runat="server" CssClass="negritas" Visible="false" />
-                                <asp:Label ID="LblRetencionVenta" runat="server" CssClass="negritas" Text="Retencion Venta:" Visible="False" />
-                                <asp:Label ID="LbRetencionVentavalor" runat="server" CssClass="negritas" Visible="False" />
+                                    <asp:Label ID="lbSiRV" runat="server" CssClass="negritas" Visible="false" />
+                                    <asp:Label ID="LblRetencionVenta" runat="server" CssClass="negritas" Text="Retencion Venta:" Visible="False" />
+                                    <asp:Label ID="LbRetencionVentavalor" runat="server" CssClass="negritas" Visible="False" />
                                     <asp:Label ID="Label71" runat="server" CssClass="negritas" Text="Total: $" />
-                                
                                 </div>
                                 <div class="cantidades">
                                     <asp:Label ID="LbSubtotal" runat="server" Text="Fallo" />                  
-                                    <asp:Label ID="LbIepsDinero" runat="server" Text="0" />
-                                                                      
+                                    <asp:Label ID="LbIepsDinero" runat="server" Text="0" />            
                                     <asp:Label ID="LbIvaDinero" runat="server" Text="Fallo" />
                                     <asp:Label ID="LbRetencionIvaValor" runat="server" Text="False" CssClass="oculto"  />
                                     <asp:Label ID="LbRetencionIsrFactor" runat="server" CssClass="oculto"/>
                                     <asp:Label ID="LbretencionIvaDinero" runat="server" Text="0" />
                                     <asp:Label ID="LbRetencionIsrDinero" runat="server" Text="0" />
-                                         <asp:Label ID="LbTotal" runat="server" Text="Fallo" />
-                                   
+                                    <asp:Label ID="LbTotal" runat="server" Text="Fallo" />                                   
                                 </div>
                             </div>
                             <div id="DivsIvas" runat="server" class="totales">

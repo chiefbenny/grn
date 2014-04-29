@@ -260,8 +260,8 @@
                             </div>
                         </div>
                         <div class="filas">
-                            <asp:Label ID="Label12" runat="server" CssClass="negritas" Text="Correo:" />
                             <div id="DivOverSellodigitalCfdi" runat="server">
+                                <asp:Label ID="Label12" runat="server" CssClass="negritas" Text="Correo:" />
                                 <asp:Label ID="LbCorreoCliente" runat="server" Text="fallo" Visible="" />
                             </div>
                         </div>

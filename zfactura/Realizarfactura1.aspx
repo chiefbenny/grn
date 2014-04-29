@@ -523,10 +523,17 @@
                                     <asp:Label ID="Label8" runat="server" Text="Ieps: $" CssClass="negritas" />
                                     <asp:Label ID="Label74" runat="server" Text="Ivafactor:" CssClass="negritas" />
                                     <asp:Label ID="LbIva" runat="server" CssClass="oculto"  />
-                                    <asp:Label ID="lblRi" runat="server" Text="Retencion Iva:"  CssClass="negritas"  Visible="False" /> 
-                                     <asp:Label ID="lblRisr" runat="server" Text="Retencion Isr"  CssClass="negritas"  Visible="False" />
-                                       <asp:Label ID="LbRetencionIsrValor" runat="server"  CssClass="negritas"  Visible="False" />
-                                      <asp:Label ID="LblRetencionVenta" runat="server" Text="Retencion "  CssClass="negritas" Visible="False" />
+                                    <asp:Label ID="lblRi" runat="server" Text="Retencion Iva:"  CssClass="negritas"  Visible="False" />
+                                    <asp:Label ID="lbSiIva" runat="server" Text=""  CssClass="oculto"  />
+                                    <asp:Label ID="LbRetencionIvaValor" runat="server" Visible="False" CssClass="oculto"  />
+                                    <asp:Label ID="LbretencionIvaFactor" runat="server" Visible="False" />
+                                    <asp:Label ID="lblRisr" runat="server" Text="Retencion Isr"  CssClass="negritas"  Visible="False" />
+                                    <asp:Label ID="lbSiRisr" runat="server" Text=""  CssClass="oculto" />
+                                    <asp:Label ID="LbRetencionIsrFactor" runat="server" Visible="False" />
+                                    <asp:Label ID="LbRetencionIsrValor" runat="server"  CssClass="negritas"  Visible="False" />
+                                    <asp:Label ID="LblRetencionVenta" runat="server" Text="Retencion "  CssClass="negritas" Visible="False" />
+                                    <asp:Label ID="LbRetencionVentavalor" runat="server" Visible="False" CssClass="negritas" />
+                                    <asp:Label ID="lbSiRV" runat="server" Text="" />
                                     <asp:Label ID="Label75" runat="server" Text="Total: $" CssClass="negritas" />
                                 </div>
                                 <div class="cantidades">
@@ -537,23 +544,6 @@
                                     <asp:Label ID="LbRetencionIsrDinero" runat="server" Text="0" Visible="False" />
                                     <asp:Label ID="LbRetencionVentaDinero" runat="server" Text="0" Visible="False"  />
                                     <asp:Label ID="LbTotal" runat="server">0</asp:Label>
-                                </div>
-                                <div>
-                                    <asp:Label ID="lbSiRV" runat="server" Text=""  />
-                                
-                                </div>
-                                <div>
-                                    <asp:Label ID="LbRetencionVentavalor" runat="server" Visible="False" CssClass="negritas" />
-                                    <asp:Label ID="LbretencionIvaFactor" runat="server" Visible="False" />
-                                </div>
-                                <div>
-                                    <asp:Label ID="lbSiIva" runat="server" Text=""  CssClass="oculto"  />
-                                    
-                                    <asp:Label ID="LbRetencionIvaValor" runat="server" Visible="False" CssClass="oculto"  />
-                                </div>
-                                <div>
-                                    <asp:Label ID="lbSiRisr" runat="server" Text=""  CssClass="oculto" />
-                                    <asp:Label ID="LbRetencionIsrFactor" runat="server" Visible="False" />
                                 </div>
                             </div>
                             <div class="gravables">

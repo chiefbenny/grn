@@ -1807,9 +1807,9 @@ legend {
 /* Pantalla 09 - Pago de Timbres */
 
 .botonespago {
-	display: block;
-	margin: 0 auto;
-	width: 40%;
+	display: inline-block;
+	margin: 0 auto 15px;
+	width: 100%;
 }
 
 .botonespago label {
@@ -1820,6 +1820,39 @@ legend {
 	width: 55%;
 }
 
-.botonespago .btnnuevo {
-	
+.botonespago .btnpago {
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	width: 23%;
+}
+
+.botonespago .btnpago:last-child {
+	margin-right: 0px;
+}
+
+.btnpago h2 {
+	margin: 10px 0;
+	font-size: 1.3em;
+}
+
+.btnpago .precio {
+	background: #DC4A2D;
+	color: #fff;
+	display: block;
+	font-size: 2.5em;
+	font-weight: bold;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.btnpago .cfolios {
+	margin: 25px 0;
+	font-size: 1.2em;
 }
